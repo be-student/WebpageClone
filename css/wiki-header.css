@@ -1,0 +1,50 @@
+.wiki-header {
+  display: flex;
+  align-items: center;
+}
+.wiki-header__icons {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+}
+.wiki-header__icon {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+
+  margin-right: 20px;
+}
+.wiki-header__title {
+  display: flex;
+  flex-direction: column;
+}
+.wiki-header__left {
+  width: 257px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.wiki-header input {
+  width: 500px;
+  margin-right: 33vw;
+}
+.left__earth {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+#left__arrow {
+  margin-left: 25px;
+  font-weight: 600;
+  margin-right: 25px;
+}
+#pencil {
+  width: 13px;
+  height: 13px;
+  object-fit: cover;
+}
