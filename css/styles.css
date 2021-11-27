@@ -8,16 +8,7 @@ body {
   margin-right: 90px;
   margin-top: 10px;
 }
-@media screen and (max-width: 1600px) {
-  body {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .side {
-    margin-left: 20px;
-    margin-right: 50px;
-  }
-}
+
 main {
   display: flex;
   margin-top: 25px;
@@ -43,4 +34,21 @@ p {
 }
 .red {
   color: red;
+}
+
+@media screen and (max-width: 1600px) {
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .side {
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  .space {
+    width: 350px;
+  }
+  .area {
+    margin-right: 30px;
+  }
 }

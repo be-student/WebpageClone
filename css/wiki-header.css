@@ -7,6 +7,9 @@
   .wiki-header input {
     display: none;
   }
+  .side {
+    visibility: hidden;
+  }
 }
 .wiki-header__icons {
   width: 130px;
