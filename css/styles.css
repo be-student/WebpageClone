@@ -1,33 +1,46 @@
 @import "wiki-header.css";
 @import "side.css";
 @import "edit.css";
+@import "context.css";
+@import "right.css";
 body {
   margin-left: 82px;
   margin-right: 90px;
   margin-top: 10px;
 }
-
+@media screen and (max-width: 1600px) {
+  body {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .side {
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+}
 main {
   display: flex;
   margin-top: 25px;
 }
-.title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0px 8px;
-  margin-top: 15px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+
+.link {
+  color: rgba(6, 69, 173, 1);
 }
-.title__icons {
-  width: 120px;
-  display: flex;
-  justify-content: space-between;
+p {
+  font-size: 15px;
+  margin: 5px 0px;
+  line-height: 22px;
+}
+
+.area {
+  margin-right: 380px;
+}
+.ten {
+  font-size: 11px;
+}
+.bold {
   font-weight: 600;
 }
-.title__title {
-  font-size: 30px;
-}
-.title__C {
-  padding-right: 5px;
+.red {
+  color: red;
 }

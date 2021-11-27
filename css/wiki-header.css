@@ -1,6 +1,12 @@
 .wiki-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1000px) {
+  .wiki-header input {
+    display: none;
+  }
 }
 .wiki-header__icons {
   width: 130px;

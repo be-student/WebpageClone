@@ -20,9 +20,6 @@
   border: 1px solid #c4e3f9;
   border-top: none;
 }
-.link {
-  color: rgba(6, 69, 173, 1);
-}
 #four {
   width: 70px;
 }
@@ -37,6 +34,11 @@
   border: 1px solid rgba(0, 0, 0, 0.3);
   background-color: #f8f9fa;
   position: relative;
+}
+@media screen and (max-width: 1600px) {
+  .edit__square {
+    width: 60vw;
+  }
 }
 .edit__close {
   font-size: 15px;
