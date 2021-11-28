@@ -51,4 +51,7 @@ p {
   .area {
     margin-right: 30px;
   }
+  .edit__square {
+    width: 70vw;
+  }
 }
